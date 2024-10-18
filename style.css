@@ -125,23 +125,22 @@ body{
     height: 65px;
     position: relative;
     color: white;
-    left: 28%;     
 }
-.support-container i{
+.support-container img{
+    height: 30px;
     position: absolute;
-    top: 40%;
-    width: 100%;
-    font-size: large;
-    text-align: center;
-    cursor: pointer;  
+    left: 250px;
+    top: -10px;
+    filter: invert(100%);
 }
 .support-container p{
     position: absolute;
     top:28px;
-    left: 18px;
+    left: 465px;
     font-size: 13px;
     cursor: pointer;
     font-weight: normal;
+
 }
 .overlay {
     position: absolute;
@@ -452,7 +451,7 @@ td,tr{
 .last-section a:hover{
     text-decoration: underline;
 }
-.palette{
+/* .palette{
     color: #3B3C43;
     font-size: 50px;
-}
+} */
